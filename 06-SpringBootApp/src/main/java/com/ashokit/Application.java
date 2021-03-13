@@ -10,5 +10,7 @@ public class Application {
 		SpringApplication.run(Application.class, args);
 		int i=0;
 	}
-
+	public void doProcess(){
+		System.out.println("Kaam Karo Naam Karo");
+	}
 }
