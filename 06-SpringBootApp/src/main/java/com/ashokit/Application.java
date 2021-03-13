@@ -5,7 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class Application {
-         Private Map<String,Object> cache= new HashMap<String,Object>();
+
+  Private Map<String,Object> cache= new HashMap<String,Object>();
+	private String Name;
+  
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 		int i=0;
